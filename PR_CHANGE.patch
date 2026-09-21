@@ -1,0 +1,11 @@
+diff --git a/queries/order_lookup.sql b/queries/order_lookup.sql
+index 9f2f7a1..4f2a6d8 100644
+--- a/queries/order_lookup.sql
++++ b/queries/order_lookup.sql
+@@ -3,4 +3,4 @@ SELECT
+     customer_id,
+     status,
+     total_cents
+ FROM orders
+-WHERE id = 12345;
++WHERE customer_id = 12345;
