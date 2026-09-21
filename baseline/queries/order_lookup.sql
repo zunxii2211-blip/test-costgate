@@ -4,4 +4,4 @@ SELECT
     status,
     total_cents
 FROM orders
-WHERE id = 12345;
+WHERE customer_id = 12345;
